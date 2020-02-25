@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Jablotron colors -->
+    <color name="jablotron_yellow">#F1B13B</color>
+    <color name="jablotron_blue">#53C0E6</color>
+
+    <!-- Blue colors -->
+    <color name="blue_light">#DDF2FA</color>
+    <color name="blue_dark">#0085B2</color>
+
+    <!-- Grey colors -->
+    <color name="background_grey">#F6F6F6</color>
+    <color name="grey_medium">#EFF2F5</color>
+    <color name="grey_light">#F5F7F9</color>
+
+    <!-- Black colors -->
+    <color name="black">#000000</color>
+    <color name="black_woodsmoke">#090A0C</color>
+    <color name="ink_dark">#252A31</color>
+    <color name="ink_medium">#696F77</color>
+    <color name="ink_light">#A7ADB4</color>
+
+    <!-- White colors -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- Red colors -->
+    <color name="red">#FF4F4F</color>
+
+    <!-- Green colors -->
+    <color name="green">#34C759</color>
+
+    <!-- Specific colors -->
+    <color name="master_button_inactive_background">@color/ink_medium</color>
+
+    <color name="immersive_sys_ui">#00000000</color>
+    <color name="nav_bar">@color/immersive_sys_ui</color>
+</resources>
+

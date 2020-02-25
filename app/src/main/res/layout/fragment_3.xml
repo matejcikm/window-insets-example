@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:theme="@style/AppTheme.Fragment3"
+        app:paddingLeftSystemWindowInsets="@{true}"
+        app:paddingRightSystemWindowInsets="@{true}">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            app:paddingTopSystemWindowInsets="@{true}">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                style="@style/ThemeOverlay.MaterialComponents.Toolbar.Primary"
+                android:layout_width="match_parent"
+                app:titleTextColor="@color/black"
+                android:layout_height="wrap_content"
+                app:title="Fragment 3" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+    </LinearLayout>
+</layout>
